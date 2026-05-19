@@ -2,22 +2,18 @@
     box-sizing: border-box;
 }
 
+
 body {
     margin: 0;
     color: #2e3d4a;
     background-color: #eef3f7;
     font-family: Arial;
-  
+ 
 }
 
-nav {
-    width: 100%;
-    padding: 1%;
-    background-color: #9cabb8;
-    text-align: center;
-    background-image: url("image.jpg");
-    background-position: center top;
-    background-size: 100%;
+.header
+{
+    background-image: url(imagenes/image.jpg);
 }
 
 nav ul {
@@ -28,18 +24,26 @@ nav ul {
 nav li {
     float: left;
     width: 12%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:1%;
     padding: 1%;
     list-style: none;
     background-color: burlywood;
     box-shadow: 5px 5px 2px rgb(114, 49, 6);
     border-top: 5px solid green;
     border-radius: 8px;
-
     font-family: 'Press Start 2P', cursive;
 }
 
+.header img
+{
+    float:left;
+    margin-left:10%;
+    width:20%;
+    height:10vh;
+
+}
 nav a {
     color: #794718;
     font-size: 70%;
@@ -47,43 +51,52 @@ nav a {
     text-decoration: none;
 }
 
+
 header {
     width: 100%;
     padding: 0;
     background-color: #99581b;
+}
+
+
+.SeccionI div{
+    padding: 8%;
+    background-image: url("imagenes/1.png");
+    background-position: center top;
+    background-size: 100%;
     text-align: center;
     color: white;
     font-family: 'Press Start 2P', cursive;
 }
 
-header > div {
-    padding: 8%;
-      background-image: url("1.png ");
-     background-position: center top;
-    background-size: 100%;
-    
-    
-}
 
-header div h1 {
+.SeccionI div h1 {
     margin: 0;
     font-size: 300%;
     font-weight: normal;
-    
+    font-family: 'Press Start 2P', cursive;
+   
 }
 
-header div p {
+
+.SeccionI div p {
     margin: 1%;
     font-size: 105%;
     background-color: #c46c1b;
-    display: inline-block ;
-    
+    display: inline-block ;  
 }
+
 
 h2, h3 {
     margin-top: 0;
     font-size: 75%;
 }
+
+
+main{
+      padding-top: 100px;
+}
+
 
 main section{
     width: 100%;
@@ -91,10 +104,12 @@ main section{
     background-color: #805e36;
 }
 
+
 .fila {
     width: 100%;
     padding: 4%;
 }
+
 
 img {
     width: 43%;
@@ -103,10 +118,12 @@ img {
     background-color: #f5f7fa;
 }
 
+
 .texto {
     width: 45%;
     padding: 1%;
 }
+
 
 h2 {
     margin: 3%;
@@ -116,6 +133,7 @@ h2 {
     color: #4eb957;
 }
 
+
 p {
     margin: 3%;
     font-size: 93%;
@@ -124,17 +142,21 @@ p {
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
 
+
 .izquierda {
     float: left;
 }
+
 
 .derecha {
     float: right;
 }
 
+
 .limpiar {
     clear: both;
 }
+
 
 .reseñas {
     width: 100%;
@@ -144,15 +166,18 @@ p {
    
 }
 
+
 .reseñas h2 {
     text-align: center;
-    
+   
 }
+
 
 .reseñas > div {
     width: 47%;
-    
+   
 }
+
 
 .reseñas div article {
     width: 100%;
@@ -161,8 +186,9 @@ p {
     clear: both;
     border: 1px solid #d5dde5;
     background-color: #f4f7fa;
-    
+   
 }
+
 
 .reseñas article h3 {
     float: left;
@@ -175,8 +201,9 @@ p {
     text-align: center;
     font-size: 80%;
     color: #000000;
-    
+   
 }
+
 
 .reseñas article p {
     float: right;
@@ -188,11 +215,13 @@ p {
    
 }
 
+
 .reseñas img {
     width: 44%;
     height: 22vw;
     object-fit: cover;
 }
+
 
 .menu .fila {
     padding-top: 3%;
@@ -200,15 +229,18 @@ p {
     color: #000;
 }
 
+
 .menu .fila article {
     width: 45%;
     padding: 1%;
-    
+   
 }
+
 
 .menu .fila article h2 {
     margin-bottom: 2%;
 }
+
 
 .menu .fila article ul {
     width: 88%;
@@ -216,6 +248,7 @@ p {
     padding: 0;
     list-style: none;
 }
+
 
 .menu .fila article li h3 {
     margin: 0;
@@ -226,6 +259,7 @@ p {
     font-family: 'Courier New', Courier, monospace;
 }
 
+
 .menu .fila article li p {
     margin: 0;
     padding: 1%;
@@ -235,14 +269,16 @@ p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
 .reserva {
     width: 100%;
     padding: 5%;
     text-align: center;
     clear: both;
     background-color: #f7f0e0;
-    
+   
 }
+
 
 .reserva form {
     width: 38%;
@@ -250,14 +286,16 @@ p {
     padding: 6%;
     background-color: #ffffff;
     text-align: left;
-    
+   
 }
+
 
 .reserva form p {
     margin-top: 4%;
     font-size: 85%;
      color:#000;
 }
+
 
 .reserva input,
 .reserva select,
@@ -269,9 +307,11 @@ p {
     background-color: #f8fafc;
 }
 
+
 .reserva textarea {
     height: 8vw;
 }
+
 
 .reserva button {
     width: 58%;
@@ -284,6 +324,7 @@ p {
     font-weight: bold;
 }
 
+
 footer {
     width: 100%;
     padding: 2%;
@@ -292,3 +333,6 @@ footer {
     background-color: #e2e8ef;
     text-align: center;
 }
+
+
+
