@@ -21,7 +21,7 @@ header
 }
 
 
-.header img
+header img
 {
     float: left;
     width: 17%;
@@ -139,11 +139,13 @@ p {
 
 .izquierda {
     float: left;
+    margin-left: 5%;
 }
 
 
 .derecha {
     float: right;
+    margin-right: 5%;
 }
 
 
@@ -174,7 +176,7 @@ p {
 
 
 .reseñas div article {
-    width: 92%;
+    width: 85%;
     padding: 4%;
     margin-bottom: 5%;
     border: 1px solid #d5dde5;
@@ -210,17 +212,19 @@ p {
 
 
 .reseñas img {
-    width: 44%;
+    width: 35%;
     height: 22vw;
     object-fit: cover;
 }
 
 
 .menu .fila {
-    padding-top: 3%;
+    padding-top: 3%;    
     padding-bottom: 3%;
     color: #000;
 }
+
+
 
 
 .menu .fila article {
@@ -271,15 +275,20 @@ p {
    
 }
 .formulario {
-    width: 71%;
+    width: 69%;
     padding-left: 31%;
    
 }
 form {
     width: 40%;
     padding: 6%;
-    background-color: #ffffff;
+    list-style: none;
     text-align: left;
+    background-color: burlywood;
+    box-shadow: 5px 5px 5px 5px rgb(114, 49, 6);
+    border-top: 6px solid green;
+    border-radius: 8px;
+    font-family: 'Press Start 2P', cursive;
    
 }
 
