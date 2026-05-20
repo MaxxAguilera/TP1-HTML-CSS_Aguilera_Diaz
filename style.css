@@ -6,17 +6,28 @@ body {
  
 }
 
+img {
+    width: 43%;
+    height: 17vw;
+    object-fit: cover;
+    box-shadow: 3px 3px 3px #3a3838;
+}
+
 header
 {
-    background-image: url(imagenes/image.jpg);
+    background-image: url(imagenes/maderaNav.jpg);
+    position: fixed;
+    background-size: cover;
 }
+
 
 .header img
 {
-    float:left;
-    width:20%;
-    height:16vh;
-
+    float: left;
+    width: 17%;
+    height: 11vh;
+    padding: 1%;
+    box-shadow: unset;
 }
 
 nav ul {
@@ -37,6 +48,7 @@ nav li {
     border-top: 5px solid green;
     border-radius: 8px;
     font-family: 'Press Start 2P', cursive;
+    text-align: center;
 }
 
 nav a {
@@ -56,6 +68,7 @@ header {
 
 .SeccionI div{
     padding: 8%;
+    padding-top: 16%;
     background-image: url("imagenes/1.png");
     background-position: center top;
     background-size: 100%;
@@ -99,15 +112,6 @@ main section{
     padding: 4%;
 }
 
-
-img {
-    width: 43%;
-    height: 17vw;
-    object-fit: cover;
-    background-color: #f5f7fa;
-}
-
-
 .texto {
     width: 45%;
     padding: 1%;
@@ -120,6 +124,7 @@ h2 {
     font-weight: normal;
     font-family: 'Press Start 2P', cursive;
     color: #4eb957;
+    text-shadow: 2px 2px 2px #000;
 }
 
 
@@ -265,13 +270,12 @@ p {
     background-color: #f7f0e0;
    
 }
-
 .formulario {
     width: 71%;
-    padding-left: 29%;
+    padding-left: 31%;
    
 }
-.reserva form {
+form {
     width: 40%;
     padding: 6%;
     background-color: #ffffff;
