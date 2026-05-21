@@ -61,8 +61,6 @@ nav a {
 
 header {
     width: 100%;
-    padding: 0;
-    background-color: #99581b;
 }
 
 
@@ -70,7 +68,6 @@ header {
     padding: 8%;
     padding-top: 16%;
     background-image: url("imagenes/1.png");
-    background-position: center top;
     background-size: 100%;
     text-align: center;
     color: white;
@@ -82,8 +79,6 @@ header {
     margin: 0;
     font-size: 300%;
     font-weight: normal;
-    font-family: 'Press Start 2P', cursive;
-   
 }
 
 
@@ -116,7 +111,6 @@ main section{
     width: 45%;
     padding: 1%;
 }
-
 
 h2 {
     margin: 3%;
@@ -165,38 +159,32 @@ p {
 
 .reseñas h2 {
     text-align: center;
+    padding-bottom: 1%;
    
 }
-
-
-.reseñas > div {
-    width: 47%;
-   
-}
-
 
 .reseñas div article {
-    width: 85%;
+    width: 80%;
     padding: 4%;
-    margin-bottom: 5%;
-    border: 1px solid #d5dde5;
-    background-color: #f4f7fa;
+    margin-bottom: 8.5%;
    
 }
 
+.caja {
+    list-style: none;
+    text-align: left;
+    background-color: burlywood;
+    box-shadow: 5px 5px 5px 5px rgb(114, 49, 6);
+    border-top: 6px solid green;
+    border-radius: 8px;
+    font-family: 'Press Start 2P', cursive;
+}
 
-.reseñas article h3 {
+
+.reseñas article img {
     float: left;
-    width: 9%;
-    margin: 0;
-    padding: 2%;
-    border-radius: 50%;
-    color: #ffffff;
-    background-color: #c7d3df;
-    text-align: center;
-    font-size: 80%;
-    color: #000000;
-   
+    width: 10%;  
+    height: 4vw;
 }
 
 
@@ -207,14 +195,14 @@ p {
     font-size: 82%;
     line-height: 1.4;
     color: #000000;
+    padding-top: 1%;
+    padding-right: 2%;
    
 }
 
 
 .reseñas img {
-    width: 35%;
     height: 22vw;
-    object-fit: cover;
 }
 
 
@@ -267,7 +255,7 @@ p {
 }
 
 
-.reserva {
+.encuesta {
     width: 90%;
     padding: 5%;
     text-align: center;
@@ -282,27 +270,20 @@ p {
 form {
     width: 40%;
     padding: 6%;
-    list-style: none;
-    text-align: left;
-    background-color: burlywood;
-    box-shadow: 5px 5px 5px 5px rgb(114, 49, 6);
-    border-top: 6px solid green;
-    border-radius: 8px;
-    font-family: 'Press Start 2P', cursive;
-   
+
 }
 
 
-.reserva form p {
+.encuesta form p {
     margin-top: 4%;
     font-size: 85%;
      color:#000;
 }
 
 
-.reserva input,
-.reserva select,
-.reserva textarea {
+.encuesta input,
+.encuesta select,
+.encuesta textarea {
     width: 100%;
     padding: 2%;
     border: 1px solid #cbd6df;
@@ -311,12 +292,12 @@ form {
 }
 
 
-.reserva textarea {
+.encuesta textarea {
     height: 8vw;
 }
 
 
-.reserva button {
+.encuesta button {
     width: 58%;
     margin-top: 8%;
     margin-left: 21%;
@@ -329,10 +310,9 @@ form {
 
 
 footer {
-    width: 96%;
+    width: 96%; 
     padding: 2%;
-    color: #2e3d4a;
-    background-color: #e2e8ef;
+    background-color: #dde9e2;
     text-align: center;
 }
 
